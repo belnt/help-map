@@ -24,6 +24,7 @@ class MainMap extends Component {
                 getCanPersons(),
                 getNeedPersons(),
             ]);
+            console.log(getCanPersons())
             return {
                 can_persons,
                 need_persons

@@ -8,6 +8,7 @@ const HeaderContent = () => {
             <div className="brand">
                 <div className="brand-logo"></div>
             </div>
+            <div className="social-buttons">helpbelarus.org@gmail.com</div>
             <div className="social-buttons">
                 <span>Поделиться в социальных сетях</span>
                 <SocialShareButtonList />

@@ -15,7 +15,6 @@ export async function getNeedPersons() {
 
 export async function getCanPersons() {
   const response = await api.post('api/can-points.php');
-  console.log(response);
   return response.data.points
     .map(point => ({ ...point, type: 'can-help' }));
 }
