@@ -1,0 +1,48 @@
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.baloon-content {
+    max-width: 300px;
+}
+
+.status {
+    display: inline-block;
+    padding: .10rem .5rem;
+    border-radius: .25rem;
+}
+
+.passenger.status-1 {
+    background-color: #1890ff;
+    color: white;
+}
+
+.driver.status-1 {
+    background-color: #ffdb4d;
+    color: #1a2c3e;
+}
+
+.status-2 {
+    background-color: #8c8c8c;
+    color: white;
+}
+
+/* Cluster List Items */
+.ymaps-2-1-77-b-cluster-tabs__menu-item-text {
+    color: rgba(0, 0, 0, 0.65) !important;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+    font-weight: 600;
+}
+
+.ymaps-2-1-77-b-cluster-tabs__menu-item:hover .ymaps-2-1-77-b-cluster-tabs__menu-item-text {
+    color: #1a2c3e !important;
+}
+
+.ymaps-2-1-77-b-cluster-tabs__menu-item_current_yes  {
+    background-color: #fffbe6 !important;
+}
+
+.ymaps-2-1-77-b-cluster-tabs__menu-item_current_yes .ymaps-2-1-77-b-cluster-tabs__menu-item-text {
+    color: #1a2c3e !important;
+}

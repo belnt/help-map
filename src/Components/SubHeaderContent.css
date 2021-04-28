@@ -1,0 +1,53 @@
+.sub-header {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    line-height: normal;
+    padding-left: 1.25rem;
+    padding-right: .25rem;
+    overflow: hidden;
+    background-color: #1a2c3e;
+    color: white;
+}
+
+.event {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.event-primary {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+    color: #ffdb4d;
+}
+
+.event-details {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.direction-select {
+    flex-shrink: 0;
+    width: 200px;
+    padding: 0;
+    text-align: right;
+    font-weight: 600;
+    color: #ffdb4d;
+}
+
+.ant-select-arrow {
+    font-weight: 600;
+    color: #ffdb4d;
+}
+
+@media (min-width: 768px) {
+    .direction-select {
+        font-size: 16px;
+        width: 200px;
+    }
+}

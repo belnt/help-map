@@ -1,0 +1,78 @@
+.header-content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    color: white;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    background-color: #ffdb4d;
+}
+
+.brand-logo {
+    width: 160px;
+    height: 64px;
+    background-image: url('/logo-title.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.social-share-button-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: .5rem;
+    list-style: none;
+    padding-right: 10px;
+  }
+  
+  .social-share-button-list > * {
+    margin-left: 3px;
+    margin-bottom: 3px;
+  }
+  
+  .social-share-button {
+    display: flex;
+  }
+  
+  .social-buttons{
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .social-buttons .social-share-button-list{
+    margin: 0;
+  }
+
+  .social-buttons span {
+    padding-right: 10px;
+    padding-bottom: 8px;
+    color: white;
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 9px;
+    opacity: 0.7;
+  }
+@media (max-width: 410px) {
+    .social-buttons {
+        display: none;
+    }
+}  
+
+@media (max-width: 625px) {
+    .brand-logo {
+        width: 162px;
+    }
+}

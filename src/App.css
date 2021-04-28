@@ -1,0 +1,104 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#root,
+.layout,
+.map-wrapper {
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  flex: 1 1;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ant-layout-header,
+.ant-layout-footer {
+  height: auto !important;
+  padding: 0 !important;
+}
+
+.ant-btn-round.ant-btn-lg {
+  background: #ffdb4d !important;
+  border-color: #ffdb4d !important;
+  color: #000;
+  line-height: 22.2px !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.ant-btn-round.ant-btn-lg span {
+  color: #000;
+  line-height: 22.2px !important;
+  position: relative;
+  top: -2px
+}
+.ant-btn-round.ant-btn-lg:hover{
+  background-color: #e6c02a !important;
+}
+
+.mb-1 {
+  margin-bottom: .3rem;
+  
+}
+
+.googleForms{
+  width: 100%;
+  height: 100%;
+}
+.drawerForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.drawerForm .frameWrapper{
+  width: 100%;
+  height: 99%;
+}
+
+.drawerForm .ant-drawer-body{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+.drawerForm .ant-drawer-content-wrapper{
+  width: 40%!important;
+  max-width: 650px;
+}
+.drawerMenu .ant-drawer-body{
+  background-color: #4d6a79;
+  padding: 0;
+}
+
+.drawerForm .gamburgerMenuWrapper{
+  padding: 10px 10px 0 0;
+}
+.drawerForm .ant-drawer-body{
+  padding: 0;
+}
+
+.drawerForm .gamburgerMenuWrapper{
+  position: absolute;
+  right: 0px;
+}
+.baloon-footer{
+  padding-top: 10px;
+}
+.ant-btn.ant-btn-sm{
+  border-radius: 20px;
+}
+
+.status-code{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px){
+  .drawerForm .ant-drawer-content-wrapper{
+    width: 95%!important;
+  }
+}
